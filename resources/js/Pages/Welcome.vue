@@ -22,19 +22,8 @@ defineProps<{
         <!-- NAVBAR -->
         <nav class="relative z-10 flex items-center justify-between px-6 py-5 max-w-7xl mx-auto">
             <!-- Logo -->
-            <div class="flex items-center gap-3">
-                <div class="w-10 h-10 rounded-full bg-blue-900 flex items-center justify-center shadow-md">
-                    <svg viewBox="0 0 40 40" class="w-6 h-6" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="20" cy="20" r="20" fill="#1e3a8a"/>
-                        <!-- Graphe en camembert simplifié -->
-                        <path d="M20 8 A12 12 0 0 1 32 20 L20 20 Z" fill="#60a5fa"/>
-                        <path d="M32 20 A12 12 0 0 1 14 30.4 L20 20 Z" fill="#93c5fd"/>
-                        <path d="M14 30.4 A12 12 0 0 1 8 20 L20 20 Z" fill="#bfdbfe"/>
-                        <path d="M8 20 A12 12 0 0 1 20 8 L20 20 Z" fill="#dbeafe"/>
-                        <circle cx="20" cy="20" r="5" fill="white"/>
-                    </svg>
-                </div>
-                <span class="text-xl font-bold text-blue-900 tracking-tight">MonKouadjo</span>
+            <div class="flex items-center">
+                <img src="/images/logo_monkouadjo.png" alt="MonKouadjo" class="h-12 w-auto" />
             </div>
 
             <!-- Nav links -->
@@ -331,11 +320,8 @@ defineProps<{
 
         <!-- FOOTER -->
         <footer class="relative z-10 border-t border-gray-100 py-8 px-6 text-center">
-            <div class="flex items-center justify-center gap-2 mb-2">
-                <div class="w-6 h-6 rounded-full bg-blue-900 flex items-center justify-center">
-                    <span class="text-white font-bold" style="font-size:10px">M</span>
-                </div>
-                <span class="text-sm font-bold text-blue-900">MonKouadjo</span>
+            <div class="flex items-center justify-center mb-3">
+                <img src="/images/logo_monkouadjo.png" alt="MonKouadjo" class="h-8 w-auto" />
             </div>
             <p class="text-sm text-gray-400">
                 © {{ new Date().getFullYear() }} MonKouadjo — Gestion financière personnelle pour la Côte d'Ivoire
