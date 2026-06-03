@@ -22,8 +22,9 @@ defineProps<{
         <!-- NAVBAR -->
         <nav class="relative z-10 flex items-center justify-between px-6 py-5 max-w-7xl mx-auto">
             <!-- Logo -->
-            <div class="flex items-center">
+            <div class="flex items-center gap-3">
                 <img src="/images/logo_monkouadjo.png" alt="MonKouadjo" class="h-12 w-auto" />
+                <span class="text-xl font-extrabold text-blue-900 tracking-tight">MonKouadjo</span>
             </div>
 
             <!-- Nav links -->
