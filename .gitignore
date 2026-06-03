@@ -1,6 +1,6 @@
 /.phpunit.cache
 /node_modules
-/public/build
+# /public/build  -- inclus dans le repo pour déploiement sur hébergement mutualisé
 /public/hot
 /public/storage
 /storage/*.key
